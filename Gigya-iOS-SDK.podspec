@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://developers.gigya.com/035_Mobile_SDKs/010_iPhone/"
   s.license      = {
     :type => 'Copyright',
-    :text => 'Copyright 2013 Gigya'
+    :text => 'Copyright 2013 Gigya. See the terms of service at http://www.gigya.com/terms-of-service/'
   }
   s.author       = 'Gigya'
   s.source       = { :http => "https://raw.githubusercontent.com/jshier/GigyaSDK/master/#{s.version}/GigyaSDK.zip" }
