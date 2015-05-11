@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Gigya-iOS-SDK"
-  s.version      = "3.2.0"
+  s.version      = "3.3.0"
   s.summary      = "The iOS client library provides an Objective-C interface for the Gigya API"
   s.homepage     = "http://developers.gigya.com/035_Mobile_SDKs/010_iPhone/"
   s.license      = {
