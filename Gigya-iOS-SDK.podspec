@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://raw.githubusercontent.com/jshier/GigyaSDK/master/#{s.version}/GigyaSDK.zip" }
   s.platform     = :ios, '7.0'
   s.source_files = 'GigyaSDK.framework/Versions/A/Headers/*.h'
-  s.vendored_frameworks = 'GigyaSDK.framework'
-  s.frameworks   = 'Foundation', 'Security'
+  s.preserve_paths = 'GigyaSDK.framework/*'
+  s.frameworks   = 'GigyaSDK', 'Foundation', 'Security'
+  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Gigya-iOS-SDK"' }
   s.requires_arc = false
 end
