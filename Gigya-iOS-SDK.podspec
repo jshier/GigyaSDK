@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.authors      = { 'Jon Shier - Podspec Maintainer' => 'jon@jonshier.com' }
   s.source       = { :http => "https://raw.githubusercontent.com/jshier/GigyaSDK/master/#{s.version}/GigyaSDK.zip" }
   s.platform     = :ios, '7.0'
-  s.source_files = 'GigyaSDK.framework/Versions/A/Headers/*.h'
+  s.source_files = 'GigyaSDK.framework/Headers/*.h'
   s.preserve_paths = 'GigyaSDK.framework/*'
   s.frameworks   = 'GigyaSDK', 'Foundation', 'Security'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Gigya-iOS-SDK"' }
