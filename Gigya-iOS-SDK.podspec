@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Gigya-iOS-SDK"
-  s.version      = "3.5.8"
+  s.version      = "3.6.0"
   s.summary      = "The iOS client library provides an Objective-C interface for the Gigya API"
   s.homepage     = "http://developers.gigya.com/display/GD/iOS"
   s.license      = {
@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '8.0'
   s.ios.frameworks          = 'Foundation', 'Security'
   s.ios.vendored_frameworks = 'GigyaSDK.framework'
+  s.deprecated_in_favor_of = "gigya-sdk"
 end
